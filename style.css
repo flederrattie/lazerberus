@@ -1,0 +1,104 @@
+html, body {
+	height:100%;
+	margin:0;
+	padding:0;
+	background-color:#1e1e40;
+	font-family:Helvetica,Arial,sans-serif;
+	color:#000;
+}
+
+header, nav, nav a {
+	color:#e2007a;
+}
+
+header {
+	width:640px;
+	text-align:center;
+	top:30px;
+	left:350px;
+	position:absolute;
+}
+
+div#bgimg img {
+	position:fixed;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+}
+
+div#everything {
+	position:relative;
+	z-index:1;
+}
+
+div#h1 {
+	background-image:url("lazerberuslogo.png");
+	width:508px;
+	height:87px;
+	margin:0 auto 0.5em;
+}
+
+div#h1 h1 {
+	display:none;
+}
+
+div#subtitle, nav {
+	text-shadow:#000 2px 1px 1px;
+}
+
+nav {
+	width:263px;
+	float:left;
+	margin:30px;
+	font-size:110%;
+	line-height:150%;
+}
+
+nav ul a {
+	background-color:#000;
+	display:block;
+	padding:0.2ex 1em;
+	margin:3px 0;
+	text-decoration:none;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	text-align:center;
+}
+
+html.rgba nav ul a {
+	background-color:rgba(0,0,0,0.5);
+}
+
+div#content {
+	position:absolute;
+	top:200px;
+	left:350px;
+	width:600px;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	padding:20px;
+}
+
+div#content {
+	background-color:#fff;
+}
+
+html.rgba div#content {
+	background-color:rgba(255,255,255,0.8);
+}
+
+h2 {
+	font-size:120%;
+	margin:2ex 0 0.5ex;
+}
+
+div.meta {
+	font-size:80%;
+	color:#444;
+	margin-bottom:1em;
+}
+
+p {
+	margin-bottom:1em;
+}
