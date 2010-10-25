@@ -1,0 +1,7 @@
+---
+title: Startseite
+---
+{% for post in site.posts %}
+<article><h2>{% post.title %}</h2>
+<div class="meta">{% post.author %}, {% post.date | date_to_string %}</div>
+</article>
